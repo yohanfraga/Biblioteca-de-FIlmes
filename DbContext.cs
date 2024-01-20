@@ -8,7 +8,7 @@ namespace MovieLibrary
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\yohan\\source\\repos\\MovieLibrary\\Database1.mdf;Integrated Security=True");
+            optionsBuilder.UseSqlServer("Sua-String-de-Conexão");
         }
     }
 }
